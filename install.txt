@@ -43,13 +43,6 @@ open ~/Applications/PhpStorm.app
 open ~/Applications/Sublime\ Text\ 2.app
 open ~/Applications/Sequel\ Pro.app
 
-# mkdir ~/vagrant-workspace
-# git clone git@github.com:HeyHolidayGmbH/heyholiday.git ./vagrant-workspace/holiday
-# git clone git@github.com:HeyHolidayGmbH/devenv.git ~/vagrant-devbox/
-# cd ~/vagrant-devbox/
-# vagrant up
-
-
 #You should add the following to your ~/.bash_profile:
 echo 'if [ -f "$(brew --prefix bash-git-prompt)/share/gitprompt.sh" ]; then' >> ~/.bash_profile
 echo '    GIT_PROMPT_THEME=Default' >> ~/.bash_profile
@@ -61,15 +54,10 @@ echo '    . $(brew --prefix)/etc/bash_completion' >> ~/.bash_profile
 echo 'fi' >> ~/.bash_profile
 
 
-OLD="[PERSONAL_LOCAL_FOLDER]"
-NEW="/Users/sandor/vagrant-workspace"
-sed "s/$OLD/$NEW/g" > /Users/vagrant-devbox/puphpet/config.yaml 
-
-
 # php storm
-- activate xdebug
-- set php codesniffer path 
-- inspection prs2
+#- activate xdebug
+#- set php codesniffer path 
+#- inspection prs2
 
 # setup mail
 
