@@ -6,6 +6,7 @@ brew cask install virtualbox
 brew cask install vagrant
 brew cask install skype
 brew cask install iterm2
+brew cask install phpstorm
 brew cask install google-chrome
 brew cask install 1password
 brew cask install dropbox
