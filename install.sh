@@ -66,5 +66,6 @@ open JavaForOSX2014-001.dmg
 #- php annotations
 
 # install xcode at the beginning via cli if possible
+# install atom https://atom.io/download/mac, wget and move to applications folder
 
 
