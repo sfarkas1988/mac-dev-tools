@@ -16,7 +16,7 @@ The following common tools are included:
 * google-chrome
 * 1password
 * dropbox
-* sublime-text
+* phpstorm
 * sequel-pro
 * wget
 * bash-git-prompt
