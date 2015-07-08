@@ -2,6 +2,7 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 sudo gem install capifony
 brew install caskroom/cask/brew-cask
 brew tap caskroom/cask
+brew cask install caskroom/homebrew-versions/java6
 brew cask install virtualbox
 brew cask install vagrant
 brew cask install skype
