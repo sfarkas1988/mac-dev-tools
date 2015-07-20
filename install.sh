@@ -22,8 +22,6 @@ curl -sS https://getcomposer.org/installer | php
 sudo mv composer.phar /usr/local/bin/composer
 sudo cp /etc/php.ini.default /etc/php.ini
 
-wget https://support.apple.com/downloads/DL1572/en_US/JavaForOSX2014-001.dmg
-open JavaForOSX2014-001.dmg
 
 
 # TODO implement the rest as cli commands
